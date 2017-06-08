@@ -6,7 +6,7 @@
 
 $("#btn").on("click", function(){
 
-  var randNum0and89 = Math.floor(Math.random() * 90);
+  var randNum0and89 = Math.floor(Math.random() * 89);
 
     var peopleRequest = new XMLHttpRequest();
     peopleRequest.open('GET', 'http://swapi.co/api/people/' + randNum0and89 + '/');
