@@ -42,6 +42,17 @@ a {
 /* ==================================================
   Elements
   ================================================== */
+.hero-logo-img, .navbar-logo-img, .footer-logo-img {
+  transform: rotate(0deg);
+  transition: all 1s ease-in-out 0s;
+}
+
+.hero-logo-img:hover, .navbar-logo-img:hover, .footer-logo-img:hover {
+  cursor: default;
+  transform: rotate(-360deg);
+  transition: all 0.25s ease-in-out 0s;
+}
+
 .logo-text {
   font-size: 45px;
 }
